@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Blocks</title>
+
+    <style>
+        .blockA {
+            width: 400px;
+            height: 200px;
+            display: flex;
+            background: silver;
+            position: relative;
+            z-index: 0;
+        }
+        .blockB {
+            width: 400px;
+            height: 500px;
+            background: aqua;
+            position: relative;
+            z-index: 0;
+        }
+
+        .w100 {
+            width: 100px;
+        }
+
+        .w200 {
+            width: 200px;
+        }
+        .h100 {
+            height: 100px;
+        }
+        .coral {
+
+            background: coral;
+        }
+        .radius {
+            border-radius: 10px;
+        }
+        .radius-round {
+            border-radius: 50%;
+        }
+        .margin-top{
+            margin-top: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="blockA"></div>
+    <div class="blockB"></div>
+    <div class="h100 w100 radius coral"></div>
+    <div class="w200 h100 radius coral margin-top"></div>
+    <div class="w100 h100 radius-round coral margin-top"></div>
+
+</body>
+</html>
